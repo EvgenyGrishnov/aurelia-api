@@ -12,7 +12,6 @@ export class ClientAdapter {
       throw new TypeError('A client instance must get provided');
     }
 
-
     if (typeof client.configure !== 'function') {
       throw new TypeError('Client implementation must provide a configure function');
     }
